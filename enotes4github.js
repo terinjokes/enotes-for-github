@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name       Pull Request => E-note
 // @namespace  http://github.com/terinjokes/enotes-for-github
-// @version    1.0.1
+// @version    1.0.2
 // @description  E-Notes for GitHub
 // @match      https://github.com/*/*
 // @match      https://github.com/*
 // @copyright  2013, Terin Stock
+// @updateURL  https://raw.github.com/terinjokes/enotes-for-github/master/enotes4github.js
 // ==/UserScript==
 
 /**
