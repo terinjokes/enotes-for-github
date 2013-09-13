@@ -6,3 +6,6 @@ This is a Greasemonkey -​-a tool for embedding JavaScript -​- a programming 
 
 ## Contributing
 Send an E-Note to request edit rights
+
+## Installing
+[E-Notes for GitHub on userscripts](http://userscripts.org/scripts/show/177741)
