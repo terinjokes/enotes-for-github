@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Pull Request => E-note
 // @namespace  http://github.com/terinjokes/enotes-for-github
-// @version    1.0.2
+// @version    1.0.3
 // @description  E-Notes for GitHub
 // @match      https://github.com/*/*
 // @match      https://github.com/*
@@ -299,3 +299,7 @@ findAndReplaceDOMText(/pull request/gi, document, function() {
 findAndReplaceDOMText(/all requests/gi, document, function() {
   return document.createTextNode('All E-Notes');
 });
+
+findAndReplaceDOMText(/repos(i)tor(y|ies)/gi, document, function(match) {
+  return document.createTextNode('o');
+}, 1);
